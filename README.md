@@ -1,7 +1,7 @@
 # Anaconda_Study
 * Download Anaconda and install it
 * Add channels    
-    \# 如果需要安装很多package添加Anaconda的TUNA镜像   
+    \# 如果需要安装很多packages, 发现添加Anaconda的TUNA镜像   conda下载的速度很慢，因为
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/    
     \# TUNA的help中镜像地址加有引号，需要去掉    
     \# 设置搜索时显示通道地址    
