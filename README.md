@@ -1,13 +1,14 @@
 # Anaconda_Study
 * Download Anaconda and install it
 * Add channels    
-    \# 添加Anaconda的TUNA镜像    
+    \# 如果需要安装很多package添加Anaconda的TUNA镜像   
     conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/    
     \# TUNA的help中镜像地址加有引号，需要去掉    
     \# 设置搜索时显示通道地址    
     conda config --set show_channel_urls yes   
     
-    conda config --show
+    conda config --show     
+    
 
 …or create a new repository on the command line
 
